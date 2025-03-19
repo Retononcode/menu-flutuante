@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Flutuante</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-menu">
+        <div class="menu-button" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <div class="social-icons" id="socialIcons">
+            <a href="#" onclick="openModal()"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/retononcode" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/retononcode" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    
+    <div id="whatsappModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Enviar Mensagem para WhatsApp</h2>
+            <input type="text" id="nome" placeholder="Seu Nome">
+            <input type="text" id="telefone" placeholder="Seu Telefone">
+            <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+            <button onclick="enviarWhatsApp()">Enviar</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
