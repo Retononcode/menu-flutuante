@@ -1,59 +1,77 @@
-# menu-flutuante
-Um menu flutuante no rodapé com as redes sociais e formulário para whatsapp
-# Documentação - Menu Flutuante
-
-## Introdução
-Este é um projeto de **Menu Flutuante** desenvolvido por **Renata Tonon (@retononcode)**. O menu permite a navegação rápida para redes sociais e interação via WhatsApp.
-
-## Funcionalidades
-- Botão flutuante para abrir/fechar menu de redes sociais
-- Links para Facebook, Instagram, Twitter, GitHub e LinkedIn
-- Modal de WhatsApp para envio de mensagens
-- Proteção contra inspeção e remoção do código
-- Design responsivo
-
-## Estrutura do Projeto
-```
-menu-flutuante/
-│── index.html
-│── assets/
-│   │── css/
-│   │   ├── renata-tonon-style.css
-│   │── js/
-│   │   ├── renata-tonon-script.js
-```
-
-## Tecnologias Utilizadas
-- **HTML5** - Estrutura da página
-- **CSS3** - Estilização e responsividade
-- **JavaScript (ES6)** - Interações dinâmicas e proteção
-- **FontAwesome** - Ícones para redes sociais
-
-## Como Usar
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/menu-flutuante.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
-
-## Arquivos e Suas Funções
-### **1. `index.html`**
-O arquivo principal da aplicação que estrutura o menu flutuante e a modal do WhatsApp.
-
-### **2. `assets/css/renata-tonon-style.css`**
-Arquivo de estilização do menu flutuante, modal e responsividade.
-
-### **3. `assets/js/renata-tonon-script.js`**
-Arquivo que gerencia as interações do menu, modal e proteções contra remoção do código.
-
-## Personalização
-- Para alterar as redes sociais, edite os links no arquivo `index.html`.
-- Para mudar as cores do menu, edite `renata-tonon-style.css`.
-
-## Licença
-Este projeto é distribuído sob a **MIT License**. Sinta-se à vontade para usar e modificar.
+# Documentação do Código - Menu Flutuante
 
 ## Autor
 **Renata Tonon**  
-Instagram, LinkedIn e GitHub: [@retononcode](https://github.com/retononcode)
+- Instagram: [@retononcode](https://www.instagram.com/retononcode)  
+- LinkedIn: [@retononcode](https://www.linkedin.com/in/retononcode)  
+- GitHub: [@retononcode](https://github.com/retononcode)  
+- Telegram: [@retononcode](https://t.me/retononcode)
+
+---
+
+## Visão Geral
+Este projeto implementa um **menu flutuante interativo**, que contém ícones de redes sociais e um modal para enviar mensagens via WhatsApp.
+
+### Tecnologias Utilizadas
+- **HTML**: Estrutura da página
+- **CSS**: Estilização dos elementos
+- **JavaScript**: Funcionalidades interativas
+
+---
+
+## Estrutura dos Arquivos
+
+### 1. **index.html** (Arquivo Principal)
+Este arquivo contém a estrutura do menu flutuante e do modal. Ele inclui:
+- Botão principal para abrir o menu
+- Íbcones de redes sociais
+- Modal para envio de mensagens via WhatsApp
+- Importação dos arquivos CSS e JavaScript externos
+
+### 2. **style.css** (Estilização)
+Define a aparência do menu, botões e modal. Inclui:
+- Posicionamento do menu flutuante
+- Estilização dos ícones
+- Animações e transições
+
+### 3. **script.js** (Interações)
+Adiciona funcionalidades dinâmicas, como:
+- Mostrar e esconder o menu de redes sociais
+- Abrir e fechar o modal
+- Enviar mensagens para o WhatsApp com os dados preenchidos pelo usuário
+
+---
+
+## Funcionalidades
+
+### 1. **Menu Flutuante**
+- Botão circular que, ao ser clicado, exibe ou oculta os ícones de redes sociais.
+- Cada ícone direciona para uma rede social correspondente.
+
+### 2. **Modal de WhatsApp**
+- Ao clicar no ícone do WhatsApp, um modal é exibido.
+- O usuário pode inserir nome, telefone e mensagem.
+- Um botão de envio abre uma conversa no WhatsApp com os dados preenchidos automaticamente.
+
+---
+
+## Como Usar
+1. Abra o arquivo **index.html** no navegador.
+2. Clique no **botão flutuante** para exibir os ícones de redes sociais.
+3. Clique no ícone do WhatsApp para abrir o modal.
+4. Preencha os campos e clique em "Enviar" para iniciar uma conversa no WhatsApp.
+
+---
+
+## Personalização
+- Para alterar as redes sociais, edite os links dentro do **index.html**.
+- Para mudar a cor do menu, altere os estilos no **style.css**.
+- Para modificar a lógica do modal, edite o **script.js**.
+
+---
+
+## Contato
+Para sugestões, melhorias ou colaboração, entre em contato pelo GitHub, LinkedIn ou Telegram listados acima.
+
+**Renata Tonon - @retononcode**
 
